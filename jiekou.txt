@@ -10,7 +10,7 @@
   "sites": [
     {
       "key": "drpy_js_豆瓣",
-      "name": "🐼┃备用公众号┃肥猫",
+      "name": "🐼┃肥猫",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
@@ -29,20 +29,7 @@
       "type": 3,
       "api": "csp_Config",
       "playerType": 2
-    },
-    {
-      "key": "csp_FeiMaoUC",
-      "name": "⚡┃闪电┃优汐",
-      "type": 3,
-      "api": "csp_Duopan",
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "http://1.95.79.193/"
-        ],
-        "url_key": "FeiMaoUC"
-      }
-    },
+    }
     {
       "key": "csp_Duopan",
       "name": "🖍︎┃蜡笔┃影视",
@@ -59,15 +46,6 @@
         ],
         "url_key": "Duopan2"
       }
-    },
-    {
-    "key":"csp_Bili",
-    "name":"🅱┃️哔哩┃合集",
-    "type":3,
-    "api":"csp_Bili",
-    "playerType":2,
-    "ext":{"json":"http://uz.xn--z7x900a.com/bili.json","cookie":""},
-    "style":{"type":"rect","ratio":1.333}
     },
     {
       "key": "csp_SuBaiBai",
@@ -326,25 +304,6 @@
       "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/酷奇MV.js"
     },
     {
-      "key": "MTV",
-      "name": "🎧┃明星┃MV",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/MTV.json"
-    },
-    {
-      "key": "虎牙直播js",
-      "name": "🐯┃虎牙┃直播",
-      "type": 3,
-      "api": "https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "playerType": 1,
-      "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/huya2.js"
-    },
-    {
       "key": "斗鱼js",
       "name": "🐟┃斗鱼┃直播",
       "type": 3,
@@ -386,15 +345,6 @@
       "style": {
         "type": "list"
       },
-      "ext": "https://img2.gelonghui.com/library/d6014-7a5d5b19-3fe5-456a-8335-925bc845606fnull"
-    },
-    {
-      "key": "米搜",
-      "name": "🌖┃米搜┃网盘",
-      "type": 3,
-      "api": "csp_MiSou",
-      "ext": "http://127.0.0.1:9978/file/fatcat/kk.txt"
-    },
     {
       "key": "csp_PanSearch",
       "name": "🚃┃盘搜┃网盘",
